@@ -1,0 +1,32 @@
+.fretboard {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fret {
+  width: 40px;
+  height: 120px;
+  border-left: 1px solid #ccc;
+  position: relative;
+}
+
+.string {
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.finger {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
